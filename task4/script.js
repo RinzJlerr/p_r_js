@@ -1,13 +1,5 @@
-const result = prompt();
+const userText = prompt('введите текст');
+const userTextField = document.querySelector('#userTextField');
+userTextField.textContent = userText;
+console.log('текст в блоке с id userTextField изменен на', userText);
 
-let paragraph = document.querySelector('a');{
-prompt(paragraph.textContent);
-}
-
-function stopDefAction(evt) {
-    evt.preventDefault();
-}
-
-document.getElementById('my-checkbox').addEventListener(
-    'click', stopDefAction, false
-)

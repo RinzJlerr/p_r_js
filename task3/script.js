@@ -22,3 +22,8 @@ function makeRed() {
 }
 
 trafficLightEI.addEventListenet('click', makeRed);
+
+
+
+
+
