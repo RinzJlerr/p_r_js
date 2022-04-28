@@ -1,5 +1,5 @@
-const userText = prompt('введите текст');
-const userTextField = document.querySelector('#userTextField');
-userTextField.textContent = userText;
-console.log('текст в блоке с id userTextField изменен на', userText);
-
+let urlLink = document.getElementById('url');
+urlLink.addEventListener('click', () => {
+    let input_text = prompt("Измените текст");
+    urlLink.innerText = input_text;
+})
